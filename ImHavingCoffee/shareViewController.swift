@@ -37,7 +37,10 @@ class shareViewController: UIViewController, UINavigationControllerDelegate, UII
         var image = UIImagePickerController()
         image.delegate = self
         image.sourceType = UIImagePickerControllerSourceType.PhotoLibrary
+        //use SourType = camera for
+        
         image.allowsEditing = false
+        
         
         self.presentViewController(image, animated: true, completion: nil)
 
